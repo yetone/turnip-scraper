@@ -11,7 +11,8 @@ browser for quick queueing.
 
 *Usage:*
 ```buildoutcfg:usage
-python .\turnip-scraper.py -p <price> -q <queue> -t <timeinterval>
+pip install -r requirements.txt
+python turnip-scraper.py -p <price> -q <queue> -t <timeinterval>
 ```
 
 * -t: Time interval to check Turnip Exchange server in seconds
